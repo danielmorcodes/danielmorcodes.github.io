@@ -51,7 +51,7 @@ body, html{
 /*=== Start Showcase Area ===*/
 
 .backgroundimg{
-  background-image: url(../img1/office-581131_1920.jpg);
+  background-image: url('https://imgur.com/F2DQgur');
   background-size: cover;
   background-position:center center;
   background-repeat: no-repeat;
