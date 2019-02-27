@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+
+/* Main color and hover  #f6f6f6   */
+
+
+body, html{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  height:100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  overflow-x: hidden;
+}
+
+/*===== Start Navbar Area =====*/
+
+.navbar {
+	padding: .7rem 1rem;
+	text-transform: uppercase;
+	font-size: .9rem;
+	font-weight: 700;
+	letter-spacing: .1rem;
+}
+.navbar{
+	background-color:#c83832;
+}
+.navbar.solid{
+  background-color: transparent;
+}
+.navbar-nav li{
+  padding: .8rem;
+}
+.navbar-nav .nav-link{
+  color: white;
+  padding-top:.8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+	color:#c83832;
+	transition: ease-in-out .15s;
+}
+
+
+.navbar-toggler{
+	color: white;
+}
+
+/*===== End Navbar Area =====*/
+
+/*=== Start Showcase Area ===*/
+
+.backgroundimg{
+  background-image: url(../img1/office-581131_1920.jpg);
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+	width: 100%;
+  margin-bottom: 4.5rem;
+}
+
+.caption{
+  width: 100%;
+  max-width: 80%;
+  position: relative;
+	top: 25%;
+	z-index: 1;
+}
+@keyframes fadein {
+	from {
+			opacity:0;
+	}
+	to {
+			opacity:1;
+	}
+}
+
+.caption h1 {
+	color: white;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+	animation: fadein 4s;
+	-moz-animation: fadein 2s; /* Firefox */
+	-webkit-animation: fadein 4s; /* Safari and Chrome */
+	-o-animation: fadein 2s; /* Opera */
+}
+.caption h6 {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 2rem;
+	animation: fadein 4s;
+	-moz-animation: fadein 2s; /* Firefox */
+	-webkit-animation: fadein 6s; /* Safari and Chrome */
+	-o-animation: fadein 2s; /* Opera */
+}
+
+
+.btn-lg {
+	border-width: small;
+	border-radius: 0 !important;
+	padding: .8rem 1.5rem;
+	font-size: 1.1rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: inline-block!important;
+	animation: fadein 4s;
+	-moz-animation: fadein 2s; /* Firefox */
+	-webkit-animation: fadein 4s; /* Safari and Chrome */
+	-o-animation: fadein 2s; /* Opera */
+}
+#home{
+	margin-bottom: 4.5rem;
+}
+
+/*=== End Showcase Area ===*/
+
+/*=== Start About Area ===*/
+
+.profile img{
+	height: 15rem;
+	border-radius:.5rem;
+	margin-bottom: 1rem;
+}
+
+hr{
+	width: 10rem;
+	height: .5rem;
+	background-color:##c83832;
+}
+.fa-instagram, .fa-linkedin, .fa-github-square{
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	color: #c83832;
+}
+.profile h3{
+	text-transform: uppercase;
+	color:#c83832;
+	font-weight: 700;
+}
+.profile h5{
+	text-transform: capitalize;
+	color:#c83832;
+	font-weight: 700;
+}
+.social-media-icons{
+	margin-bottom:2.5rem;
+}
+.jumbotron{
+	text-align: center;
+	border-radius: 0px;
+	margin-bottom: 4.5rem;
+}
+
+.intro .jumbotron{
+	margin-bottom: 3.5rem;
+	border-radius: 0px;
+	background-color: #c11f19;
+	color: white;	
+}
+.fa-map-pin, .fa-table-tennis{
+	margin-right: 3rem;
+	font-size: 2.3rem;
+}
+/*===== Start Portfolio Area =====*/
+
+.portfolio .jumbotron{
+	border-radius: 0px;
+	text-align: center;
+}
+#portfolio .portfolio1 .jumbotron h3{
+	color: #c83832;
+	text-transform: uppercase;
+}
+#portfolio .portfolio1 .jumbotron hr{
+	width: 5rem;
+	height: .1rem;
+	background-color:#c83832;
+	margin-bottom: 2.5rem;
+}
+.fa-laptop-code{
+	font-size: 3.5rem;
+	margin-bottom: 1.5rem;
+}
+.text{
+	padding: 2rem;
+}
+#portfolio{
+	margin-bottom: 2rem;
+}
+
+/*=== End Portfolio Area ===*/
+
+/*===== Start Contact Area =====*/
+.contact{
+	margin-top: -2rem;
+}
+.contact{
+	background-image: url(../img1/office-581131_1920.jpg);
+	background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+	width: 100%;
+  margin-bottom: 4.5rem;
+}
+/*===== End Contact Area =====*/
+
+
+footer{
+	background-color:#c83832;
+	height:5rem;
+	color: white;
+	bottom: 0px;	
+}
+footer p{
+	padding-top: .7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+	/* Styles */
+	
+	.caption h1 {
+		color: white;
+		font-size: 3.5rem;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .3rem;
+		text-shadow: .1rem .1rem .8rem black;
+		padding-bottom: 1rem;
+	}
+	.caption h6 {
+		color: white;
+		font-size: 2rem;
+		font-weight: 400;
+		text-shadow: .1rem .1rem .5rem black;
+		padding-bottom: 2rem;
+	}
+	.btn-lg {
+		border-width: medium;
+		border-radius: 0 !important;
+		padding: .8rem 1.5rem;
+		font-size: 1.1rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		display: inline-block!important;
+	}	
+	.caption{
+		width: 100%;
+		max-width: 80%;
+		position: relative;
+		top: 38%;
+		z-index: 1;
+	}
+}
