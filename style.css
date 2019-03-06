@@ -206,6 +206,7 @@ hr{
 footer{
 	background-color:black;
 	color: white;
+	height:5rem;
 	bottom: 0px;	
 }
 footer p{
