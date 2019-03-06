@@ -138,11 +138,14 @@ hr{
 	height: .5rem;
 	background-color:black;
 }
-.fa-instagram, .fa-linkedin, .fa-github-square{
+
+.fa-instagram, .fa-linkedin, 
+.fa-github-square {
 	margin-right: 1rem;
 	font-size: 1.5rem;
 	color: black;
 }
+
 .profile h3{
 	text-transform: uppercase;
 	color:black;
@@ -168,10 +171,8 @@ hr{
 	background-color: black;
 	color: white;	
 }
+/*=== End About Area ===*/
 
-.intro .jumbotron hr{
-	color: white;
-}
 /*===== Start Portfolio Area =====*/
 
 .portfolio .jumbotron{
