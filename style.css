@@ -10,9 +10,16 @@ body, html{
   padding: 0px;
   height:100%;
   font-family: 'Open Sans Condensed', sans-serif;
-  overflow-x: hidden;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
+.offset:before {
+	height: 4rem;
+	margin-top: -4rem;
+	content: "";
+	display: block;
+}
 /*===== Start Navbar Area =====*/
 
 .navbar {
