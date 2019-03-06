@@ -43,14 +43,14 @@ body, html{
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover{
-	color:#c83832;
+	color:#BABFBB !important;
 	transition: ease-in-out .15s;
 }
 
 
 .navbar-toggler{
 	color: white;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 /*===== End Navbar Area =====*/
@@ -129,7 +129,7 @@ body, html{
 hr{
 	width: 10rem;
 	height: .5rem;
-	background-color:##c83832;
+	background-color:black;
 }
 .fa-instagram, .fa-linkedin, .fa-github-square{
 	margin-right: 1rem;
@@ -162,6 +162,8 @@ hr{
 	color: white;	
 }
 
+.intro .jumbotron hr{
+	color: white;
 }
 /*===== Start Portfolio Area =====*/
 
@@ -185,10 +187,6 @@ hr{
 }
 .text{
 	padding: 2rem;
-}
-
-.focus{
-	max-width: 60%;
 }
 
 #portfolio{
@@ -248,13 +246,13 @@ footer p{
 	}
 	.caption h6 {
 		color: white;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		font-weight: 400;
 		text-shadow: .1rem .1rem .5rem black;
 		padding-bottom: 2rem;
 	}
 	.btn-lg {
-		border-width: medium;
+		border-width: small;
 		border-radius: 0 !important;
 		padding: .8rem 1.5rem;
 		font-size: 1.1rem;
