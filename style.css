@@ -22,6 +22,12 @@ body, html{
 	font-weight: 700;
 	letter-spacing: .1rem;
 }
+
+.navbar-brand{
+	color: white;
+	z-index: 1;
+}
+
 .navbar{
 	background-color:black;
 }
@@ -155,9 +161,7 @@ hr{
 	background-color: black;
 	color: white;	
 }
-.fa-map-pin, .fa-table-tennis{
-	margin-right: 3rem;
-	font-size: 2.3rem;
+
 }
 /*===== Start Portfolio Area =====*/
 
@@ -182,6 +186,11 @@ hr{
 .text{
 	padding: 2rem;
 }
+
+.focus{
+	max-width: 60%;
+}
+
 #portfolio{
 	margin-bottom: 2rem;
 }
